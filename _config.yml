@@ -110,7 +110,7 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 # 9. Site navigation
 navigation_header:
 - title: Home
-  url: 
+  url: https://tianangthang7.github.io/
 - title: Elements
   url: elements/
 - title: Blog
