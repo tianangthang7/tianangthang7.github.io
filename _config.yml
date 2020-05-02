@@ -112,13 +112,13 @@ navigation_header:
 - title: Home
   url: 
 - title: Elements
-  url: blog/elements/
+  url: elements/
 - title: Blog
-  url: blog/blog/
+  url: blog/
 - title: Categories
-  url: blog/categories/
+  url: categories/
 - title: Search
-  url: sblog/earch/
+  url: search/
 - title: My Facebook
   url: https://www.facebook.com/tianangthang7
 
