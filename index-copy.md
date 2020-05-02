@@ -1,10 +1,10 @@
 ---
-title: About Me
+title: About me
 feature_text: |
-  ## Nguyễn Hoàng Anh 
-  Welcome to my blog.
-feature_image: "https://picsum.photos/1300/400?image=999"
-excerpt: "My name is Nguyen Hoang Anh. I am currently working at ZaloPay as a Data Scientist. This blog is a place for me to organize and share the knowledge that I know."
+  ## Alembic
+  A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
+feature_image: "https://picsum.photos/1300/400?image=989"
+excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 layout: page
 ---
 
