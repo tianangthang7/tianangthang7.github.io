@@ -8,3 +8,23 @@ excerpt: "My name is Nguyen Hoang Anh. I am currently working at ZaloPay as a Da
 layout: page
 ---
 My name is Nguyen Hoang Anh. I am currently working at ZaloPay as a Data Scientist. This blog is a place for me to organize and share the knowledge that I know.
+ <div class="content">
+
+    <article class="article  article--page  typeset">
+
+      {% if paginator.posts %}
+        {% assign collectiondata = site.collections | where: "label", page.collectionpage | first %}
+        <h1>{{ collectiondata.title }}</h1>
+        {{ collectiondata.description | markdownify }}
+
+      {% else %}
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+        
+      {% endif %}
+
+    </article>
+
+    {% include post-list.html %}
+
+  </div>
