@@ -5,10 +5,30 @@ categories:
 feature_image: "https://picsum.photos/2560/600?image=872"
 ---
 
-The complete distilling apparatus consists of three parts: the "cucurbit" (Arabic ḳarʿa, Greek βίκος), the still pot containing the liquid to be distilled, which is heated by a flame; the "head" or "cap" (Arabic anbiḳ, Greek ἄμβιξ) which fits over the mouth of the cucurbit to receive the vapors, with an attached downward-sloping "tube" (Greek σωλήν), leading to the "receiver" (Arabic ḳābila, Greek ἄγγος or φιάλη) container.
+I already read a lot of articles about Shapley Values, but none of them make me feel easy to understand, that is why I decided to write this article. I hope this article can help you have another way to understand this value.
 
-<!-- more -->
+So, what is Shapley Value? It’s a value representing the contribution of each person in a cooperative task.
 
-Retorts have the "cap" and the "cucurbit" made into one. The anbik is also called the raʾs (head) of the cucurbit. The liquid in the cucurbit is heated or boiled; the vapour rises into the anbik, where it cools by contact with the walls and condenses, running down the spout into the receiver. A modern descendant of the alembic is the pot still, used to produce distilled beverages.
+Before goes deeper into the definition and computation of the Shapley value, let’s play a game.
 
-_Originally from [Alembic - Wikipedia](https://en.wikipedia.org/wiki/Alembic)_
+Imagine that A, B, C are working together on a task, how do we know each other’s contributions is?
+
+Imagine also that our current goal is to calculate the marginal contribution of player C.
+
+To do this we create all subsets excluding C and group them into 3 groups: group with 0 people, group with 1 people, group with 2 people.
+
+Assume that f is a task outcome function. We calculate f(∅),f(A),f(B) and f(A,B).
+Then when we calculate the outcome when C came in: f(∅,C),f(A,C),f(B,C) and f(A,B,C).
+
+Next, we have an average contribution of C in each group:
+
+
+The average contribution of C in in-group has 1 people
+
+The average contribution of C in in-group has 2 people
+Then we take an average for all groups:
+
+In general, the shapely value can also be expressed as:
+
+Where n is the total number of people, v is a value function.
+{% include figure.html image="./_img/screenshot.png" alt="Image with just alt text" %}
