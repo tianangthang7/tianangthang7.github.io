@@ -32,6 +32,6 @@ In general, the shapely value can also be expressed as:
 
 Where n is the total number of people, v is a value function.
 
-<img src="/_img/screenshot.png" alt="hi" class="inline"/>
+<img src="/_img/default-social-image.png" alt="hi" class="inline"/>
 <img src="/assets/default-social-image.png" alt="hi" class="inline"/>
 
