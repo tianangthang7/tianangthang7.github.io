@@ -31,4 +31,5 @@ Then we take an average for all groups:
 In general, the shapely value can also be expressed as:
 
 Where n is the total number of people, v is a value function.
-{% include figure.html image="./_img/screenshot.png" alt="Image with just alt text" %}
+
+<img src="_img/screenshot.png" alt="hi" class="inline"/>
