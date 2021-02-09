@@ -16,3 +16,8 @@ $$ \hat{y} = \mathbf{w}^T\mathbf{x} +b$$
 The vector $\mathbb{x}$ corresponds to features of a single data example. To represent tho whole dataset we use $\mathbf{X} \in \mathbb{R}^{n\times d}$. Here $\mathbf{X}$ contains one row for every example and one column for every feature. The predictions $\mathbf{\hat{y}} \in \mathbb{R}^n$ can be expressed as: 
 $$ \mathbf{\hat{y}} = \mathbf{Xw} +b$$
 
+The `Loss function` quantifies the distance between the real and predicted value of the target.
+
+$$ (y - \hat{y})^2 =  \|\mathbf{y} - \mathbf{X}\mathbf{w}\|^2$$
+ We need to find $\mathbf{w}$ to minimize the loss function. The analytic solution is:
+ $$ (\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X^T}\mathbf{y}$$
