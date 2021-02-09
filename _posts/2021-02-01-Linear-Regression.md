@@ -18,7 +18,7 @@ $$ \mathbf{\hat{y}} = \mathbf{Xw} +b$$
 
 The `Loss function` quantifies the distance between the real and predicted value of the target.
 
-$$ (y - \hat{y})^2 =  \|\mathbf{y} - \mathbf{X}\mathbf{w}\|^2$$
+$$ (y - \hat{y})^2 =  \|\mathbf{y} - \mathbf{X}\mathbf{w}\|^2 $$
 
- We need to find $\mathbf{w}$ to minimize the loss function. The analytic solution is:
+We need to find $\mathbf{w}$ to minimize the loss function. The analytic solution is:
  $$ (\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X^T}\mathbf{y}$$
