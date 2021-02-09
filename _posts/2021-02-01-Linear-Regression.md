@@ -17,7 +17,6 @@ The vector $\mathbb{x}$ corresponds to features of a single data example. To rep
 $$ \mathbf{\hat{y}} = \mathbf{Xw} +b$$
 
 The `Loss function` quantifies the distance between the real and predicted value of the target.
-
 $$ (y - \hat{y})^2 =  \|\mathbf{y} - \mathbf{X}\mathbf{w}\|^2 $$
 
 We need to find $\mathbf{w}$ to minimize the loss function. The analytic solution is:
