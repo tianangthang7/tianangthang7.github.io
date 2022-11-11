@@ -13,7 +13,8 @@
   height: 100%;
   padding: 0;
   margin: 0;
-  background: #000;
+  background-image: url('https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/286642795_1365796270594876_4060176991125042383_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=e3f864&_nc_ohc=ynG91UolwsUAX9n7UTA&_nc_ht=scontent.fsgn2-5.fna&oh=00_AfDaAaR91FTMu5JDrCI61ZLdA-xASIVnZug__yCQVBYOpQ&oe=6373686E');
+  background: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,7 +47,7 @@ canvas {
 #pinkboard:before, #pinkboard:after {
   content: '';
   position: absolute;
-  background: #FF5CA4;
+  background: #af1fdb;
   width: 100px;
   height: 160px;
   border-top-left-radius: 50px;
@@ -272,7 +273,7 @@ var ParticlePool = (function() {
     }
     context.closePath();
     // create the fill
-    context.fillStyle = '#FF5CA4';
+    context.fillStyle = '#9933CC';
     context.fill();
     // create the image
     var image = new Image();
